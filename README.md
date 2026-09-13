@@ -143,6 +143,8 @@ The Builder pattern separates the construction of a complex object from its repr
 
 It makes the construction process easier to read and allows different builders to create different configurations of the same product.
 
+In this project, the same Computer product can be built as either a gaming computer or an office computer.
+
 
 
 **UML DIAGRAM**
@@ -151,5 +153,5 @@ The UML diagram illustrates the implementation of the Builder design pattern in 
 
 
 
-In this project, the same Computer product can be built as either a gaming computer or an office computer.
+
 
