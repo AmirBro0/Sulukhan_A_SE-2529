@@ -1,2 +1,13 @@
-public class ComputerBuilder {
+public interface ComputerBuilder {
+    ComputerBuilder setCpu(String cpu);
+
+    ComputerBuilder setRam(int ram);
+
+    ComputerBuilder setStorage(String storage);
+
+    ComputerBuilder setGpu(String gpu);
+
+    ComputerBuilder setOperatingSystem(String operatingSystem);
+
+    Computer build();
 }
