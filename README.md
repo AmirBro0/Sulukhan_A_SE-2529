@@ -145,5 +145,11 @@ It makes the construction process easier to read and allows different builders t
 
 
 
+**UML DIAGRAM**
+
+The UML diagram illustrates the implementation of the Builder design pattern in the Computer project. The Computer class is the Product, while ComputerBuilder defines the construction steps. GamingComputerBuilder and OfficeComputerBuilder implement the Builder interface and create different computer configurations. ComputerDirector organizes reusable construction sequences, and Main acts as the Client that initiates the building process.
+
+
+
 In this project, the same Computer product can be built as either a gaming computer or an office computer.
 
